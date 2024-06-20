@@ -1,7 +1,7 @@
-.wrapper {
-  width: 1110px;
-  margin: 0 auto;
-  padding: 0 20px;
+/* Global */
+
+.page__main {
+  margin: 0;
 }
 
 body {
@@ -13,10 +13,19 @@ body {
   min-width: 1150px;
 }
 
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .page-main {
   background-color: #FFFAF3;
   padding: 120px 0;
 }
+
+
+/* wysiwyg-wrapper */
 
 .wysiwyg-wrapper h1 {
   font-family: "Open Sans", "Arial", sans-serif;
@@ -57,4 +66,71 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 60px 0;
+}
+
+/* reviews */
+
+.reviews {
+  background-color: #FFFAF3;
+  padding: 120px 0;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  grid-template-rows: 32px auto auto;
+  column-gap: 22px;
+  margin-bottom: 64px;
+}
+
+.review__image-wrapper {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  width: 160px;
+  height: 160px;
+  background-color: #f5d581;
+}
+
+.review__image {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  text-indent: -100vw;
+}
+
+.review__name {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+
+.review__text {
+  font-size: 18px;
+  line-height: 27px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin: 0 0 10px 0;
+}
+
+.review__link {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  color: #D8874D;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 24px;
+  position: relative;
+}
+
+.review__link::before {
+  content: "";
+  background-image: url('/img/icon-linkedin.svg');
+  width: 16px;
+  height: 16px;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 7px;
 }
