@@ -1,6 +1,5 @@
 # Проект «Public-interior-designt»
 
-
 ## О проекте
 
 «Public-interior-designt» - это одностраничный сайт, который полностью готов к интегрированию на CMS WordPress.
