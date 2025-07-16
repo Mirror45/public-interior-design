@@ -1,28 +1,24 @@
-# Проект «Public-interior-designt»
+# Project "Public-interior-designt"
 
-## О проекте
+## About
 
-«Public-interior-designt» - это одностраничный сайт, который полностью готов к интегрированию на CMS WordPress.
+"Public-interior-designt" is a single-page website fully ready for integration with the WordPress CMS.
 
-### Типовые задачи, которые пришлось решить во время разработки:
+### Typical tasks solved during development:
 
-- Разбивка страниц на блоки и компоненты
-- Подготовка текста под работу с WYSIWYG
-- Подготовка вёрстки под изменение контента
-- Подготовка графики под работу с системами управления контента
-- Правильная организация CSS- и JavaScript-кода
-- Создание форм, которые будут генерироваться на лету
+- Breaking pages into blocks and components  
+- Preparing text for working with WYSIWYG editors  
+- Preparing layout for dynamic content changes  
+- Preparing graphics for content management systems  
+- Proper organization of CSS and JavaScript code  
+- Creating forms that will be generated on the fly 
 
-## Установка 🛠
+## Installation 🛠
 
-1. Сначала требуется склонировать проект на ваш пк
+```bash
+# Clone the repository:
+git clone git@github.com:Mirror45/public-interior-design.git
 
-```
-  git clone git@github.com:Mirror45/public-interior-design.git
-```
-
-2. Переходим в только что склонированный репозиторий
-
-```
- cd public-interior-design
+# Navigate to the project directory:
+cd public-interior-design
 ```
